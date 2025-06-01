@@ -40,6 +40,10 @@ class MainActivity : ReactActivity() {
           ){})
   }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+      super.onCreate(null)
+    }
+
   /**
     * Align the back button behavior with Android S
     * where moving root activities to background instead of finishing activities.
