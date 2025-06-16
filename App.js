@@ -1,11 +1,11 @@
-import './global.css'
-import {NavigationContainer} from "@react-navigation/native";
+import "./global.css";
+import { NavigationContainer } from "@react-navigation/native";
 import AppNavigator from "./src/routes/AppNavigator";
 
 export default function App() {
   return (
-      <NavigationContainer>
-        <AppNavigator />
-      </NavigationContainer>
+    <NavigationContainer>
+      <AppNavigator />
+    </NavigationContainer>
   );
 }
